@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Description: Prints all possible different combinations of two digits, separated by comma followed by a space 
- *              and in ascending order
+ * main - Prints all possible different combinations of two digits, separated by *        comma followed by a space and in ascending order
  * Return: 0
  */
 int main(void)
@@ -16,12 +14,16 @@ for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 {
 putchar((digit1 % 10) + '0');
 putchar((digit2 % 10) + '0');
+
 if (digit1 == 8 && digit2 == 9)
 continue;
+
 putchar(',');
 putchar(' ');
 }
 }
+
 putchar('\n');
+
 return (0);
 }
