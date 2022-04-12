@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the sum of the even-valued Fibonacci sequence 
+ * main - Prints the sum of the even-valued Fibonacci sequence
  *        term not exceeding 4000000.
  *
  * Return: 0
