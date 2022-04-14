@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - checks for uppercase character
- * @letter: the character to be tracked
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isdigit - checks for a digit (0 through 9)
+ * @num: int to be checked
+ * Return: 1 if num is a digit, 0 otherwise
  */
-int _isupper(int letter)
+int _isdigit(int num)
 {
-	return (letter >= 'A' && letter <= 'Z');
+	return (num >= '0' && num <= '9');
 }
