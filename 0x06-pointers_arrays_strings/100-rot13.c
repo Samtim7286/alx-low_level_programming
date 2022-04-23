@@ -9,7 +9,7 @@
 char *rot13(char *s)
 {
 	int i = 0, j = 0;
-	char string_rot13[] = "NopqrstuvwxyzAaBbCcDdEeFfGgHhIiJjKkLlMm";
+	char string_rot13[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 	char string_alpha[] = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 
 	while (s[i] != '\0')
