@@ -6,7 +6,6 @@
  * @l: integer to count length
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
 int palind2(char *a, int l)
 {
@@ -20,7 +19,6 @@ int palind2(char *a, int l)
  * @l: length
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
 
 int palind3(char *a, int l)
@@ -36,7 +34,6 @@ int palind3(char *a, int l)
  * @s: string to evaluate
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
 int is_palindrome(char *s)
 {
