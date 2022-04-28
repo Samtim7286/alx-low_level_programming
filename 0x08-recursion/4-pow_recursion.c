@@ -6,7 +6,6 @@
  * @y: Power
  *
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
  */
 int _pow_recursion(int x, int y)
 {
