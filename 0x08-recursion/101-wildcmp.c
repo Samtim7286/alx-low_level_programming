@@ -7,7 +7,6 @@
  * @s2: string with wild character
  *
  * Return: On success 1.
- * On error, -1 is returned
  */
 int wildcmp(char *s1, char *s2)
 {
