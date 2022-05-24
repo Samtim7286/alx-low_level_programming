@@ -1,5 +1,5 @@
 0x12-SINGLY_LINKED_LISTS
 
-The code must be compiled using
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-gcc -Wall -Werror -Wextra -pedantic .c*
+When and why using linked lists vs arrays
